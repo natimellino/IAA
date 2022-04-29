@@ -63,5 +63,4 @@ def generate_points_c(n):
     # Generamos el dataframe
     points = {'x': xs, 'y': ys, 'Class': clases}
     df = pd.DataFrame(points)
-    print(df.groupby('Class').count())
     return df
