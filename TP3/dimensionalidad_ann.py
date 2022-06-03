@@ -19,7 +19,7 @@ from ej4tp1 import generate_dataframe_a, generate_dataframe_b
 warnings.filterwarnings("ignore")
 
 def dim_ann():
-    ds = [2, 4]
+    ds = [2, 4, 6, 8, 16, 32]
 
     test_errors_a = []
     test_errors_b = []
